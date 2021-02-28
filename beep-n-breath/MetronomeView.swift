@@ -34,7 +34,7 @@ struct MetronomeView: View {
 //                .fontWeight(.thin)
             CircleView(fill: metronome.count)
                 .animation(.easeInOut)
-                
+                .padding()
         
             Spacer()
             

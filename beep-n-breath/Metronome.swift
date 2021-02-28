@@ -23,6 +23,8 @@ class Metronome:  ObservableObject {
     private var timerSubs = Set<AnyCancellable>()
     
     private var startDate: Date?
+    private var countUp = true
+    
     
     ///The time we run for in seconds
     @Published var duration: Int = 10 {
@@ -58,16 +60,26 @@ class Metronome:  ObservableObject {
         player.play()
         startDate = Date()
         count = 1
-
+countUp = true
+       
         
         timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true, block: { [weak self] _ in
-            if self?.count == 6 {
-                self?.count = 1
-                return
+          
+            if self!.countUp && self!.count == 6 {
+                self?.count = 6
+                self?.countUp = false
+            } else if !self!.countUp && self?.count == 1 {
+                self?.countUp = true
+                self?.count = -1
             }
-            self?.count += 1
             
+            if self!.countUp {
+                self?.count += 1
+            } else {
+                self?.count -= 1
+            }
 
+            
             if Date().timeIntervalSince(self!.startDate!) >= Double(self!.duration) {
                 self?.stop()
             }
