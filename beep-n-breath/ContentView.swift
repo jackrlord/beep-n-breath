@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var showDisclaimer = true
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if showDisclaimer {
+            DisclaimerView(showDisclaimer: $showDisclaimer)
+        } else {
+            MainTabView()
+        }
     }
 }
 

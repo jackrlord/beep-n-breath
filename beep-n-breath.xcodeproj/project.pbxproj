@@ -13,6 +13,17 @@
 		F437FF5025E6B5B800340FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F437FF4F25E6B5B800340FE5 /* Assets.xcassets */; };
 		F437FF5325E6B5B800340FE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F437FF5225E6B5B800340FE5 /* Preview Assets.xcassets */; };
 		F437FF5625E6B5B800340FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F437FF5425E6B5B800340FE5 /* LaunchScreen.storyboard */; };
+		F437FF5F25E6B5C800340FE5 /* Click-1Bar.wav in Resources */ = {isa = PBXBuildFile; fileRef = F437FF5E25E6B5C700340FE5 /* Click-1Bar.wav */; };
+		F437FF6325E6B5D300340FE5 /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437FF6225E6B5D300340FE5 /* Metronome.swift */; };
+		F437FF6625E6B5F900340FE5 /* MetronomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437FF6525E6B5F900340FE5 /* MetronomeView.swift */; };
+		F437FF6C25E7B0BC00340FE5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437FF6B25E7B0BC00340FE5 /* Settings.swift */; };
+		F437FF6F25E7B98D00340FE5 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437FF6E25E7B98D00340FE5 /* DatePicker.swift */; };
+		F437FF7325E7F2B800340FE5 /* HowToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437FF7225E7F2B800340FE5 /* HowToView.swift */; };
+		F437FF7625E7F39700340FE5 /* DisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437FF7525E7F39700340FE5 /* DisclaimerView.swift */; };
+		F437FF7925E7F46300340FE5 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437FF7825E7F46300340FE5 /* TabView.swift */; };
+		F437FF7C25E8005C00340FE5 /* Click-1Bar-Beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F437FF7B25E8005C00340FE5 /* Click-1Bar-Beep.mp3 */; };
+		F437FF8A25EB98FE00340FE5 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437FF8925EB98FE00340FE5 /* CircleView.swift */; };
+		F437FF8D25EB9FF600340FE5 /* howTo.MOV in Resources */ = {isa = PBXBuildFile; fileRef = F437FF8C25EB9FF600340FE5 /* howTo.MOV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		F437FF5225E6B5B800340FE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F437FF5525E6B5B800340FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F437FF5725E6B5B800340FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F437FF5E25E6B5C700340FE5 /* Click-1Bar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Click-1Bar.wav"; sourceTree = "<group>"; };
+		F437FF6225E6B5D300340FE5 /* Metronome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metronome.swift; sourceTree = "<group>"; };
+		F437FF6525E6B5F900340FE5 /* MetronomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeView.swift; sourceTree = "<group>"; };
+		F437FF6B25E7B0BC00340FE5 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		F437FF6E25E7B98D00340FE5 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		F437FF7225E7F2B800340FE5 /* HowToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToView.swift; sourceTree = "<group>"; };
+		F437FF7525E7F39700340FE5 /* DisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerView.swift; sourceTree = "<group>"; };
+		F437FF7825E7F46300340FE5 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		F437FF7B25E8005C00340FE5 /* Click-1Bar-Beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Click-1Bar-Beep.mp3"; sourceTree = "<group>"; };
+		F437FF8925EB98FE00340FE5 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		F437FF8C25EB9FF600340FE5 /* howTo.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = howTo.MOV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +81,16 @@
 				F437FF4925E6B5B700340FE5 /* AppDelegate.swift */,
 				F437FF4B25E6B5B700340FE5 /* SceneDelegate.swift */,
 				F437FF4D25E6B5B700340FE5 /* ContentView.swift */,
+				F437FF7825E7F46300340FE5 /* TabView.swift */,
+				F437FF6B25E7B0BC00340FE5 /* Settings.swift */,
+				F437FF7225E7F2B800340FE5 /* HowToView.swift */,
+				F437FF6E25E7B98D00340FE5 /* DatePicker.swift */,
+				F437FF7525E7F39700340FE5 /* DisclaimerView.swift */,
+				F437FF6525E6B5F900340FE5 /* MetronomeView.swift */,
+				F437FF8925EB98FE00340FE5 /* CircleView.swift */,
+				F437FF6225E6B5D300340FE5 /* Metronome.swift */,
 				F437FF4F25E6B5B800340FE5 /* Assets.xcassets */,
+				F437FF6125E6B5CB00340FE5 /* Audio */,
 				F437FF5425E6B5B800340FE5 /* LaunchScreen.storyboard */,
 				F437FF5725E6B5B800340FE5 /* Info.plist */,
 				F437FF5125E6B5B800340FE5 /* Preview Content */,
@@ -73,6 +104,16 @@
 				F437FF5225E6B5B800340FE5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F437FF6125E6B5CB00340FE5 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				F437FF8C25EB9FF600340FE5 /* howTo.MOV */,
+				F437FF5E25E6B5C700340FE5 /* Click-1Bar.wav */,
+				F437FF7B25E8005C00340FE5 /* Click-1Bar-Beep.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +175,10 @@
 			files = (
 				F437FF5625E6B5B800340FE5 /* LaunchScreen.storyboard in Resources */,
 				F437FF5325E6B5B800340FE5 /* Preview Assets.xcassets in Resources */,
+				F437FF7C25E8005C00340FE5 /* Click-1Bar-Beep.mp3 in Resources */,
 				F437FF5025E6B5B800340FE5 /* Assets.xcassets in Resources */,
+				F437FF8D25EB9FF600340FE5 /* howTo.MOV in Resources */,
+				F437FF5F25E6B5C800340FE5 /* Click-1Bar.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,8 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F437FF7925E7F46300340FE5 /* TabView.swift in Sources */,
+				F437FF6C25E7B0BC00340FE5 /* Settings.swift in Sources */,
+				F437FF6F25E7B98D00340FE5 /* DatePicker.swift in Sources */,
+				F437FF6325E6B5D300340FE5 /* Metronome.swift in Sources */,
+				F437FF6625E6B5F900340FE5 /* MetronomeView.swift in Sources */,
+				F437FF7625E7F39700340FE5 /* DisclaimerView.swift in Sources */,
+				F437FF8A25EB98FE00340FE5 /* CircleView.swift in Sources */,
 				F437FF4A25E6B5B700340FE5 /* AppDelegate.swift in Sources */,
 				F437FF4C25E6B5B700340FE5 /* SceneDelegate.swift in Sources */,
+				F437FF7325E7F2B800340FE5 /* HowToView.swift in Sources */,
 				F437FF4E25E6B5B700340FE5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +343,7 @@
 				DEVELOPMENT_TEAM = JHZJA35KHP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "beep-n-breath/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +365,7 @@
 				DEVELOPMENT_TEAM = JHZJA35KHP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "beep-n-breath/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
